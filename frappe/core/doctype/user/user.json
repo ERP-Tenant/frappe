@@ -755,7 +755,8 @@
    "fieldname": "tenant_id",
    "fieldtype": "Link",
    "label": "Tenant Id",
-   "options": "Tenant Details"
+   "options": "Tenant Details",
+   "permlevel": 2
   },
   {
    "fieldname": "column_break_snij",
@@ -822,7 +823,7 @@
    "link_fieldname": "user"
   }
  ],
- "modified": "2024-08-14 11:51:24.671749",
+ "modified": "2024-08-14 11:56:12.358566",
  "modified_by": "Administrator",
  "module": "Core",
  "name": "User",
