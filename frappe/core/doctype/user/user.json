@@ -9,6 +9,8 @@
  "field_order": [
   "user_details_tab",
   "enabled",
+  "column_break_snij",
+  "tenant_id",
   "section_break_3",
   "email",
   "first_name",
@@ -748,6 +750,16 @@
    "fieldname": "default_app",
    "fieldtype": "Select",
    "label": "Default App"
+  },
+  {
+   "fieldname": "tenant_id",
+   "fieldtype": "Link",
+   "label": "Tenant Id",
+   "options": "Tenant Details"
+  },
+  {
+   "fieldname": "column_break_snij",
+   "fieldtype": "Column Break"
   }
  ],
  "icon": "fa fa-user",
@@ -810,7 +822,7 @@
    "link_fieldname": "user"
   }
  ],
- "modified": "2024-08-13 14:48:15.168516",
+ "modified": "2024-08-14 11:51:24.671749",
  "modified_by": "Administrator",
  "module": "Core",
  "name": "User",
