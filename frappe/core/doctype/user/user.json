@@ -9,6 +9,8 @@
  "field_order": [
   "user_details_tab",
   "enabled",
+  "column_break_snij",
+  "tenant_id",
   "section_break_3",
   "email",
   "first_name",
@@ -825,6 +827,16 @@
    "fieldname": "dashboard",
    "fieldtype": "Check",
    "label": "Dashboard"
+   "fieldname": "tenant_id",
+   "fieldtype": "Link",
+   "label": "Tenant Id",
+   "options": "Tenant Details",
+   "permlevel": 2
+  },
+  {
+   "fieldname": "column_break_snij",
+   "fieldtype": "Column Break"
+
   }
  ],
  "icon": "fa fa-user",
@@ -888,6 +900,7 @@
   }
  ],
  "modified": "2024-09-27 11:41:13.336662",
+
  "modified_by": "Administrator",
  "module": "Core",
  "name": "User",

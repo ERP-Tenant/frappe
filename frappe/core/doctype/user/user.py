@@ -128,6 +128,7 @@ class User(Document):
 		send_welcome_email: DF.Check
 		simultaneous_sessions: DF.Int
 		social_logins: DF.Table[UserSocialLogin]
+		tenant_id: DF.Link | None
 		thread_notify: DF.Check
 		time_zone: DF.Autocomplete | None
 		timeline: DF.Check
