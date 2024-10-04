@@ -824,9 +824,6 @@
   },
   {
    "default": "1",
-   "fieldname": "dashboard",
-   "fieldtype": "Check",
-   "label": "Dashboard"
    "fieldname": "tenant_id",
    "fieldtype": "Link",
    "label": "Tenant Id",
